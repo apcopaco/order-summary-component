@@ -1,0 +1,157 @@
+
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background: #E0E8FF;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+    
+}
+
+
+
+.card {
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+    
+    
+    
+}
+
+
+.main_image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-width: 100%;
+}
+
+
+h1 {
+    font-weight: 900;
+    color: #1F2E55;
+    font-size: 28px;
+    margin-top: 46.21px;
+    margin-bottom: 17px;
+    line-height: 37.04px;
+    
+}
+
+
+p {
+    color: #717FA6;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.plan {
+    display: flex;
+    background-color: #F7F9FF;
+    align-items: center;
+    justify-content: space-between;
+    width: 354px;
+    margin-left: 48px;
+    border-radius: 11px;
+    height: 98px;
+    margin-top: 20px;
+    
+}
+
+.plan_box {
+    display: flex;
+    align-items: center;
+}
+
+.music {
+    margin-left: 24px;
+    width: 48px;
+    height: 48px;
+}
+
+.selected_plan {
+    font-size: 16px;
+    font-weight: 900;
+    color: #1F2E55;
+    height: 21px;
+    width: 117.19px;
+}
+
+.price {
+    font-size: 16px;
+    color: #717FA6;
+    font-weight: 500;
+    
+}
+
+
+.info {
+    margin-right: 20px;
+}
+
+
+
+
+
+a {
+    margin-right: 24px;
+    color: #382AE1;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.52px;
+    
+}
+
+.payment_button {
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    background-color: #382AE1;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 32px;
+
+}
+
+.cancel_button {
+    margin-top: 32px;
+    font-weight: 900;
+    font-size: 15px;
+    color: #717FA6;
+    background-color: white;
+    line-height: 19.85px;
+    border: none;
+    margin-bottom: 48px;
+    
+}
+
+a:hover {
+    color: #766CF1;
+    cursor: pointer;
+}
+
+.cancel_button:hover {
+    color: #1f2e55; 
+    cursor: pointer;
+}
+
+.payment_button:hover {
+    background-color: #766CF1;
+    cursor: pointer;
+}
+
